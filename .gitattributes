@@ -1,0 +1,4 @@
+MaskRCNN_Finetuned/*.bin filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+MaskRCNN_PreTrained/*.bin filter=lfs diff=lfs merge=lfs -text
+MaskRCNN_PreTrained/*.pth filter=lfs diff=lfs merge=lfs -text
